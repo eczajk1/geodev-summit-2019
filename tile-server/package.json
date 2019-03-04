@@ -1,14 +1,11 @@
 {
-  "name": "tile-server",
+  "name": "geodev-summit-2019-tile-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "tessera mbtiles://./bridges-01.mbtiles",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Eric Czajkowski",
   "dependencies": {
     "mbtiles": "^0.9.0",
     "tessera": "^0.14.1"
