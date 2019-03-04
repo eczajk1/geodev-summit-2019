@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    build: ./web
+    ports:
+    - "8000:80"
+  server:
+    build: ./tile-server
+    ports:
+    - "8080:8080"
