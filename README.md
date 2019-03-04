@@ -3,6 +3,8 @@ Visualizing Large Spatial Datasets on the Web
 
 This is a demonstration of a 3rd party Vector Tile dataset in MapboxGL. The dataset is the National Bridge Inventory. For more information on how the `mbtiles` file was created, see [this link](https://gist.github.com/eczajk1/55c027b4ad088b7dfa8a113b1171dfc8).
 
+![](https://raw.githubusercontent.com/eczajk1/geodev-summit-2019/master/screenshot.gif)
+
 ## Install
 
 ```
@@ -11,7 +13,7 @@ git clone [this repository]
 
 ## Run
 
-Inside of `./web/index.html`, find and enter your Mapbox API Access Token.
+First, inside of `./web/index.html`, enter your Mapbox API Access Token.
 
 ### Docker
 
